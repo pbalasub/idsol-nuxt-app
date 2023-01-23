@@ -34,8 +34,8 @@ export default defineNuxtConfig({
 	components: true,
 	app: {
 		head: {
-			title: "Vuetify 3 + Nuxt 3 Starter",
-			titleTemplate: "%s | Vuetify 3 + Nuxt 3 Starter",
+			title: "IDSOL - Industrial Automation",
+			//titleTemplate: "%s | Industrial Automation",
 			link: [
 				{
 					rel: "stylesheet",

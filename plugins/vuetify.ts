@@ -1,4 +1,5 @@
 import { createVuetify } from "vuetify";
+import { VDataTable } from 'vuetify/labs/VDataTable'
 import { aliases, custom } from "@/helpers/customIcons";
 import { MAIN_THEME, mainTheme, MAIN_DARK_THEME, mainDarkTheme } from "@/helpers/themes";
 import { defaults } from "~~/helpers/defaults";
@@ -6,6 +7,9 @@ import { defaults } from "~~/helpers/defaults";
 export default defineNuxtPlugin((app) => {
 	const vuetify = createVuetify({
 		ssr: true,
+		components: {
+			VDataTable,
+		},
 		defaults,
 		// add theme
 		theme: {
